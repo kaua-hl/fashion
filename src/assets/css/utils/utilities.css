@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.subtitle {
+  font-family: var(--fs-1);
+  font-size: 4rem;
+}
+
+.btn {
+  max-width: 200px;
+  text-align: center;
+  background: var(--c-3);
+  padding: 14px;
+  color: var(--c-4);
+  width: 100%;
+}

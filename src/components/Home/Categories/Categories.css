@@ -1,0 +1,14 @@
+.categories h2 {
+  margin: 60px 0px;
+}
+
+.categories a {
+  max-width: 220px;
+  margin: 100px auto;
+  font-size: 1.125rem;
+}
+
+.categories__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}

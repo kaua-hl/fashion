@@ -1,0 +1,25 @@
+.popular {
+  background: var(--c-5);
+  padding: 80px 20px;
+}
+
+.popular__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.popular__description h2 {
+  margin-bottom: 50px;
+}
+
+.popular__description p {
+  max-width: 55ch;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.popular__description a {
+  margin-top: 50px;
+}

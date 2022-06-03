@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 20px 150px;
+  gap: 30px;
+}
+
+.hero h1 {
+  font-family: var(--fs-1);
+  font-weight: 400;
+  font-size: 7.375rem;
+  flex: 50%;
+}
+
+.hero img {
+  flex: 50%;
+}

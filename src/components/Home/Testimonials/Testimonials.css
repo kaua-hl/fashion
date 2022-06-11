@@ -1,0 +1,39 @@
+.testimonials {
+  padding: 100px 20px;
+}
+
+.testimonials h2 {
+  margin-bottom: 80px;
+}
+
+.testimonials__content {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px 40px;
+}
+
+.testimonials__content h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.testimonials__content span {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+}
+
+.testimonials__content p {
+  line-height: 1.625rem;
+}
+
+.testimonials > a {
+  max-width: max-content;
+  margin: 100px auto 0px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--c-3);
+  font-weight: 700;
+}

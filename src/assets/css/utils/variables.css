@@ -1,10 +1,11 @@
 :root {
-  --fs-2: "Inter", sans-serif;
   --fs-1: "Playfair Display", serif;
+  --fs-2: "Inter", sans-serif;
   --c-0: #534435;
   --c-1: #77644f;
   --c-2: #f1eae3;
   --c-3: #d27d23;
   --c-4: #ffffff;
   --c-5: #dcc7b1;
+  --c-6: #e6d9cb;
 }
